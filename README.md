@@ -1,7 +1,7 @@
 # HTML-PROJECTS
 
 Welcome to the HTML Beginner's Playground!
-
+ 
 👋 Hello fellow coding enthusiasts and beginners alike! If you're embarking on your journey into the world of web development and HTML, you've just stumbled upon the perfect spot – the HTML Beginner's Playground GitHub repository.
 
 # About This Repository
