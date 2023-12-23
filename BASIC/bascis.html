@@ -1,0 +1,244 @@
+<!DOCTYPE html>  <!--it declares its a html file--> 
+<html>           <!--This container tag represent the root element of a html page--> 
+    
+    <head>       <!--This container tag contains the information about your webpage-->
+        <title>My First Html project</title>
+        <link rel="icon"type="image/gif" href="Images\Favicon.gif">
+    </head>
+    <body>                       <!--This container tag contains the visible information of your page-->
+        <h1>The Example Of Heading</h1>
+        <hr>      
+        <h1>This is a h1 heading</h1>   <!--This is the header container tag-->
+        <h2>This is a h2 heading</h2>
+        <h3>This is a h3 heading</h3>
+        <h4>this is a h4 heading</h4>
+        <h5>This is a h5 heading</h5>
+        <br>        <!--The line breaking tag-->
+        <hr>        <!--it creates a visible line horizontally and make things apart-->
+        <h1>The Example of "p" container tag</h1>
+        <hr>
+        <p>         <!--It is the paragraph container tag.To make a new line you need to use the <br> tag.So use <pre> tags but it has also some problems-->
+            Hi guys,This is my first html program or project whatever 
+            <br>
+            you call and i am giving my best
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet,  <!--if you write Loerm and press tab then you can have this trash too-->
+            <br> consectetur adipisicing elit. Vel, iusto? Impedit cum nostrum dicta natus dolor autem 
+            <br> tempora quidem atque nulla consequuntur, 
+            <br> similique ut sit saepe ex veritatis quam cumque!
+        </p>
+        <h1>the Example of Hyperlink</h1>
+        <hr>
+        <a href="https://www.google.com/"  
+        target = "_blank"
+        title="goes to google"> <!--"a" container tag contains the hyperlink files/website. For exteral wbesite or files we need 'href'attribute-->
+            Click Me                    <!--Here we put the link of google as an example-->
+        </a>
+        <br>
+        <!--Now fromn our last project we are gonna add the lyrics.html as a hyperlink-->
+
+        <a href="lyrics.html"
+        target="_blank"
+        title="goes to lyrics project">
+
+        Song Lyrics
+        </a>
+        <br>
+
+        <a href="mailto:testfake@.com">
+            Email me
+        </a>
+
+    <h1>the Example of Image in HTML</h1>
+    <hr>
+    <img src="Images\girl withg mug.png"
+    alt="this is a pixelated picture of a lady holding a cup of coffe"
+    height="300">   <!--Remember to correctly put the path of the image and the most important thing is write the correct form factor of the image.Ex:the pic that i use was a png, that's why i wrote .png-->        
+                    <!--we can change the size of picture with Hegiht And widht attribute.the size will be in pixels so be careful-->
+                    <!-- The alt attribute helps those people who are visually imapared.If they use narrator  than the text in Alt will be pronounced loudly and they will hear it.
+                     Try to express the image perfectly.Alt text will be hidden.you can try on your web-->
+    
+    <!--We can turn images into HyperLink-->
+    <!--Here's a demo-->
+    <a href="https://www.bing.com/images/search?view=detailV2&ccid=GZN8SiWo&id=3AA9D19C6BB73FC02B33CD797F0A2B2F8DC21CB8&thid=OIP.GZN8SiWo0oNslFrHHBjCyAHaFj&mediaurl=https%3a%2f%2fwww.memesmonkey.com%2fimages%2fmemesmonkey%2f21%2f21226ba217141c7ebe56e28c6606a84e.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.19937c4a25a8d2836c945ac71c18c2c8%3frik%3duBzCjS8rCn95zQ%26pid%3dImgRaw%26r%3d0&exph=1440&expw=1920&q=never+gonna+give+you+up+meme+pic&simid=608020026570720467&FORM=IRPRST&ck=E8EF99F4350359A81FA82D9FE74E19FB&selectedIndex=8&itb=0&ajaxhist=0&ajaxserp=0
+    ">                                   <!--If you follow this then there's a gift :))-->
+
+    <img src="Images\48952.png"
+    alt="This is a picture of i dunno"
+    height="200">
+    </a>
+    <!--You can add Gif too! Just write .gif as form factor-->
+
+    <h1>The example of AUDIO in HTML</h1>
+    <hr>
+    <audio controls>
+        <source  src="Audio\yt1s.com - VARDAAN  CARRYMINATI X Wily Frenzy.mp3"type="audio/mpeg" >
+        <source src="Audio\yt1s.com - VARDAAN  CARRYMINATI X Wily Frenzy.mp3"type="audio/wav" >
+    </audio>
+    
+    <h1>The Example Of Video in HTML</h1>
+    <hr>
+    <!--we can use .mp4, .webm, .ogg this formats of videos in html-->
+    <!--The interesting matter is we can turn Video into hyper link. So i am gonna write the video code again but in hyperlink-->
+    <video src="videos\TEST.mp4" controls width="500"> <!--To understand what is going on here just remove and again write it and have a look on live server.than you will get it-->
+        <source src="videos\TEST.mp4"type="video/mp4"> <!--Line 83 and 84 explanation: incase someone's website doesnt support the .mp4 file then we are gonna use <source>| This thing was aslo done in the <audio>-->
+        <source src="videos\TEST.mp4"type="video/webm"><!--Now if you dont know what is live server than it is a VS Code extension-->
+    </video>
+    <br>
+    <p>This one is a hyperlink:</p>
+    <a target="_blank" href="https://www.pinterest.com/pin/334814553543151072/">
+        <video src="videos\TEST.mp4" controls width="500">
+            <source src="videos\TEST.mp4"type="video/mp4">
+            <source src="videos\TEST.mp4"type="video/webm">
+        </video>
+    </a>
+
+    <!--Now i am gonna show you how to add favicon in html.Previously the way i showed you, how it was,happened etc. Now i am not gonna show you.Cause favicon is an easy thing.Just see the code you will get it-->
+    <!--For favicon, latest websites supports .ico, .png, .jpg, .gif, .svg-->
+    <!--As an example i am gonna use a gif -->
+    <!--I would reccomend that the picture should be 96*96 pixels-->
+    <!--This thing specifies the relationship between this document and an external source-->
+    <!--The favicon's code must be in the "Head" at the line 5-->
+
+
+
+
+    <h1>Text-Formatting in HTML</h1>
+    <hr>
+
+    <p>This is a normal text</p>
+    
+    <p>This is a <b>Bold</b> text</p>
+    
+    <p>This is a <i>Italic</i> text</p>
+    
+    <p>This is a <u>underlined</u> text</p>
+    
+    <p>This is a <del>Deleted</del> text</p>
+    
+    <p>This is a <big>Big</big> text</p>
+     
+    <p>This is a <small>Small</small> text</p>
+    
+    <p>This is a <sub>Subscript</sub> text</p>
+    
+    <p>This is a <sup>Superscript</sup> text</p>
+    
+    <p>This is a <tt>Monospaced</tt> text</p>
+
+    <p>This is a <mark>Mark</mark> text</p> <!--We can change the color by using CSS-->
+    <p>This is a <mark style="background-color: lightgreen;" >Mark </mark>text</p>
+
+    <h1>The Example of <i>Span and Div</i> in HTML</h1>
+    <!--GROUP TOGETHER HTML FOR STYLING PURPOSES-->
+    <!--<span> inline container to group elements for styling-->
+    <!--<div> block container to group elements for styling-->
+        <h3>This is a <span style="background-color: aquamarine;">span</span> title</h3>  
+        <h3>This is a <div style="background-color: blueviolet;">Div</div>title</h3>  
+
+        <p>This is a <span style="background-color:lightskyblue;">Span</span>sentence</p>
+        <p>This is a <div style="background-color: aqua;">Div</div>sentence</p>
+
+
+    <h1>Lists In HTML</h1>
+    <hr>
+
+    <!--There are three types of lists in HTML--> 
+                <!--Ordered List-->
+     <p>Example of Ordered list:</p>
+     <ol>
+        <li>eat breakfast</li>
+        <li>Take shower</li>
+        <li>organize your room</li>
+        <li>Sit for coding</li>
+        <li>sleep again</li>
+     </ol>   
+                
+                <!--Unordered List-->
+    <p>Example of Unordered list:</p>
+    <ul>
+        <li>milk</li>
+        <li>cement</li>
+        <li>Never gonna give you up</li>
+        <li>Coffee Supplies</li>
+        <ul>                            <!--This thing creates a nest list.Run the code you will get it-->
+            <li>Coffee bins</li>
+            <li>Creamer</li>
+        </ul>
+    </ul>   
+                <!--Description List-->
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML is the standard markup language for creating Web pages</dd>
+        <br>
+        <dt>CSS</dt>
+        <dd>simply designed language intended to simplify the process of making web pages presentable</dd>
+        <br>
+        <dt>JAVASCRIPT</dt>
+        <dd>a scripting or programming language that allows you to implement complex features on web pages </dd>
+        <br>
+        <dt>PHP</dt>
+        <dd>a scripting or programming language that allows you to implement complex features on web pages </dd>
+    </dl>
+
+    <br>
+
+    <h1>Example Of Tables in HTML</h1>
+    <hr>
+    <p>As a example we're gonna use a table for a store timning</p><br>
+    <h3>Store Hours</h3>
+    <table border="1" style="background-color: black;" >
+        <tr align="center" style="background-color: aliceblue;" >
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr align="center" style="background-color: blueviolet;">
+            <td>Closed</td>
+            <td>9-10</td>
+            <td>9:30-10:30</td>
+            <td>9-10</td>
+            <td>11-12</td>
+            <td>7-8</td>
+            <td>Closed</td>
+
+        </tr>
+    </table>
+
+    <h2>The Example Of Buttons In HTML</h2>
+    <hr>
+    <p>Lets make a button which will take us to Google</p>
+
+    <a href="https://www.google.com/" target="_blank">
+        <button style="font: size 25px; background-color: bisque color;color:black" >Click Me</button>
+    </a> <!--We put some basic CSS to make it cool.We made the button a hyperlink that will take us to Google in a new page-->
+    
+    <h4>lets create Forms in HTML</h4>
+    <hr>
+
+    <form>
+        <label for="name" >username:</label>
+        <input  type="text" id="name" placeholder="Rick Astley" required maxlength="7"><br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" required placeholder="Are you baka?" minlength="6" maxlength="12" ><br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="nevergonnagiveyouup@gmail.com" required><br>
+        <br>
+        <label for="phone">#phone</label>
+        <input type="tel" id="phone" placeholder="#056491361960" required maxlength="10" minlength="0" ><br>
+        <br>
+        
+        <select
+                
+        <input type="submit"><br>
+        <input type="reset">
+    </form> 
+     </body>
+</html>
